@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -rdynamic CMakeFiles/unnamed_memory.dir/unnamed_memory.c.o -o unnamed_memory  liberr.a -lpthread -lrt 

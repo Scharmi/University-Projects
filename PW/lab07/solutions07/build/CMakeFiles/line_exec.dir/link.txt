@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wall -Wextra -Wno-sign-compare -rdynamic CMakeFiles/line_exec.dir/line_exec.c.o -o line_exec  liberr.a 

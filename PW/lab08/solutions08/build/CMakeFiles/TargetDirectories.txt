@@ -1,0 +1,6 @@
+/home/scharmi/PW/lab08/solutions08/build/CMakeFiles/err.dir
+/home/scharmi/PW/lab08/solutions08/build/CMakeFiles/pipeline-utils.dir
+/home/scharmi/PW/lab08/solutions08/build/CMakeFiles/pipeline.dir
+/home/scharmi/PW/lab08/solutions08/build/CMakeFiles/pipeline-tester.dir
+/home/scharmi/PW/lab08/solutions08/build/CMakeFiles/edit_cache.dir
+/home/scharmi/PW/lab08/solutions08/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/echo-server.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/echo-client.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/edit_cache.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/rebuild_cache.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/list_install_components.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/install.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/install/local.dir
+/home/scharmi/SiK/Przykłady 3-20230315(1)/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wall -Wextra -rdynamic CMakeFiles/echo-server.dir/echo-server.c.o -o echo-server 

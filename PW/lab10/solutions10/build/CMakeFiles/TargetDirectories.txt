@@ -1,0 +1,4 @@
+/home/scharmi/PW/lab10/solutions10/build/CMakeFiles/err.dir
+/home/scharmi/PW/lab10/solutions10/build/CMakeFiles/gifts.dir
+/home/scharmi/PW/lab10/solutions10/build/CMakeFiles/edit_cache.dir
+/home/scharmi/PW/lab10/solutions10/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -Wall -rdynamic CMakeFiles/atomic-volatile.dir/atomic-volatile.cpp.o -o atomic-volatile 

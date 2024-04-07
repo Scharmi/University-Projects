@@ -1,0 +1,10 @@
+/home/scharmi/PW/lab14/build/CMakeFiles/atomic-volatile.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/lockfree-stack.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/dekker.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/peterson.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/edit_cache.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/rebuild_cache.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/list_install_components.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/install.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/install/local.dir
+/home/scharmi/PW/lab14/build/CMakeFiles/install/strip.dir
