@@ -1,0 +1,350 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[polish]{babel}
+\usepackage[OT4]{fontenc}
+\usepackage{polski}
+\usepackage{ifthen}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage[utf8]{inputenc}
+
+%\setlength{\topmargin}{-1.4truecm} \addtolength{\oddsidemargin}{-1.0truecm}
+%\setlength{\textwidth}{16.5truecm} \setlength{\textheight}{24truecm}
+
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+\usepackage{epstopdf}
+
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{15pt}
+
+\usepackage{hyperref}
+
+\newcommand{\uczniowie}[1]{\begin{center}\bf #1 \end{center}}
+\newcommand{\nauczyciel}[3]{\centerline{\bf \Large #1 #2 #3}}
+
+\newcommand{\podziekowanie}[7]{
+\noindent\begin{figure}\includegraphics[width=0.13\textwidth]{logo_OM}\hfil
+\kern10pt\raise.75truecm\vbox{\hrule\hbox{\vrule\strut\kern3pt OLIMPIADA
+MATEMATYCZNA ROK POWOŁANIA 1949$\strut^{\strut}_{\kern-5pt\phantom|}$ \vrule}\hrule}
+\hfil\lower-.3truecm\vbox{\hbox{\includegraphics[width=0.12
+\textwidth]{logo-sem.eps}}}
+\end{figure}
+
+\vskip.1truecm
+
+\large
+
+\rightline{Końskie, 6 kwietnia 2024}
+
+\vskip0.8truecm
+
+\bigskip\nauczyciel{#1}{#2}{#3}
+\bigskip\bigskip
+Zarząd Stowarzyszenia na rzecz Edukacji Matematycznej i Komitet Główny Olimpiady
+Matematycznej serdecznie gratulują #4 osiągnięć w pracy dydaktycznej, których
+wyrazem jest fakt, że #5 #7
+
+Mamy nadzieję na dalszą współpracę z #6 w dziedzinie rozbudzania zainteresowania
+matematyką młodzieży i życzymy kolejnych sukcesów.
+
+\vskip2.0truecm
+
+\leftline{\normalsize Przewodniczący Komitetu Głównego\phantom{m}\hfill
+Przewodniczący Stowarzyszenia \phantom{e}}
+
+\leftline{\normalsize \phantom{mm} Olimpiady Matematycznej\hfill na rzecz Edukacji
+Matematycznej}
+
+\bigskip\bigskip
+
+\leftline{\normalsize  \phantom{mm}prof. dr hab. Grzegorz Świątek\hfill prof. dr hab.
+Krzysztof Chełmiński\phantom{}}
+\newpage
+}
+
+\begin{document}
+
+\pagestyle{empty}
+
+
+\podziekowanie{\empty Pan\empty}{\empty Wojciech\empty}{\empty Babiański\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Paweł Jacewicz} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jacek\empty}{\empty Bagiński\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Konrad Leżoń, \\Michał Malik} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Eliza\empty}{\empty Baranowska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Karol Musieliński} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Szymon Anders, \\Adam Kurzyński, \\Aleksandra Żyniewicz} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agnieszka\empty}{\empty Bartosik\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Krzysztof Dąbrowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Paweł\empty}{\empty Bechler\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Andrzej Maroń, Krzysztof Pietrusiak, Gustaw Wenzel, Jan~Gwiazda, Kajetan Ramsza, Grzegorz Kaczmarek} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Mateusz Sawicki, Jerzy Olkowski, Bartosz Stopczyński, Piotr~Wielgolewski, Tomasz Ostrowski, Adam Gąsienica-Samek, Maksymilian Czyżewski, Paweł Ramut, Dominik Figurski, Jan~Święszkowski, Michał Szeliga, Anna~Koziara, Tymon Kłoda, Antoni Łuczak, Dominika Piętka, Jan~Dorosiński, Szymon~Pancewicz, Wiktoria Bazan} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Iwona\empty}{\empty Berse\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Igor Grauer} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Sylwerster\empty}{\empty Błaszczuk\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Mateusz Wawrzyniak} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Beata\empty}{\empty Bogdańska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Antoni Wagner} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Piotr Haduch, \\Ignacy Kus, \\Adam Lubiński, \\Stanisław Pekrul} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mirosław\empty}{\empty Boksa\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Szymon Król} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Krzysztof\empty}{\empty Bolibok\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Aleksander Olszewski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Urszula\empty}{\empty Borucińska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Marek Wnęk} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Łukasz\empty}{\empty Bożyk\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczennica \uczniowie{Łucja Łyziak} uzyskała tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Maria\empty}{\empty Bubiłek\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Maciej Kolasiński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Bartosz\empty}{\empty Budnarowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Stanisław Owsiak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Aneta\empty}{\empty Buraczewska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Łukasz Ganczarek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Dominik\empty}{\empty Burek\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Miłosz Płatek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Andrzej\empty}{\empty Bysiewicz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Miłosz Zajdel} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Bartłomiej\empty}{\empty Bzdęga\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Karol Musieliński} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Szymon Anders, \\Aleksandra Żyniewicz} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Andrzej\empty}{\empty Chorabik\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Julian Zbigniew Kuryłłowicz-Kaźmierczak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Piotr\empty}{\empty Chrząstowski-Wachtel\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Grzegorz Kaczmarek} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Anna Koziara, \\Dominika Piętka, \\Jan Święszkowski} uzyskały tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Grażyna\empty}{\empty Czarnecka\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Krzysztof Karwik} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mateusz\empty}{\empty Dębowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Jan Dorosiński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Piotr\empty}{\empty Długosz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Wiktor Proć, \\Bartosz Wójtowicz} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Dorota\empty}{\empty Dulińska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Mikołaj Gorączko} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jacek\empty}{\empty Dymel\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Magdalena Pudełko, Michał Lipiec, Antoni Mazur, Błażej~Dratwa, Michał Wolny, Tymon Sidor} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Paulina Jabłońska, Jan Kosiorowski, Maciej Luty, Julian Tasior, Jakub Sykulski, Mikołaj Satora, Jan Jurkowski, Maciej Anioł, Andrzej Bachleda-Curuś, Wiktoria Klejdysz, Miłosz Płatek, Katarzyna Ludwa, Szymon Wróblewski, Jakub Stachniak, Hubert~Działo, Juliusz Paweł Marszałek} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Anna\empty}{\empty Dziewońska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jan Nowakowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Ewelina\empty}{\empty Dzieża\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Mikołaj Woźniak} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Tomasz Wieczorek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Maciej\empty}{\empty Dziuba\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Oleksii Iermolenko, \\Daniel Krzak} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Paweł\empty}{\empty Dziuba\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Piotr Miernik} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Aleksandra Dudzińska, \\Oleksii Iermolenko, \\Daniel Krzak, \\Mateusz Miernik} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Elżbieta\empty}{\empty Firlik\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Wiktor Bucki} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Marcin\empty}{\empty Furga\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Rafał Mańczyk} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Wojciech Rybak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Bożena\empty}{\empty Gajecka\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Wiktor Bucki} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Aleksandra\empty}{\empty Gala-Jaskórzyńska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Piotr Chybalski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Małgorzata\empty}{\empty Gawrzak\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jeremi Hyska} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Grzegorz\empty}{\empty Gągała\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczennica \uczniowie{Urszula Wąsiewicz} uzyskała tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jerzy\empty}{\empty Glapiński\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczennica \uczniowie{Matylda Koprowska} uzyskała tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Marek\empty}{\empty Gładzki\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Paweł Buczyński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jakub\empty}{\empty Gogolok\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Rafał Mańczyk} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Anna\empty}{\empty Gorczyca\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jan Malawski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Danuta\empty}{\empty Grabowska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Tymoteusz Czapkowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Sebastian\empty}{\empty Guz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Marek Muzyka} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Jakub Nowak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Elżbieta\empty}{\empty Herda\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Radosław Górzyński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jerzy\empty}{\empty Herud\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Konrad Hałaszko} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jacek\empty}{\empty Jakimiuk\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Aleksander Mielnikau} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Stanisław Kozłowski, \\Sylwia Sapkowska} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Karol\empty}{\empty Janowicz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Jarosław Makucha} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Joanna\empty}{\empty Jaroszuk\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Adam Sienkiewicz} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Katarzyna\empty}{\empty Jermakowicz\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jakub Sułkowski} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jaroszuk\empty}{\empty Joanna\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Stanisław Kozłowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jacek\empty}{\empty Kaczor\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Michał Malik} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Arkadiusz\empty}{\empty Kaczyński\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Gustaw Wenzel} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Zbigniew\empty}{\empty Karczmarczyk\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Konstanty Smolira} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Łukasz Próchniak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Wioletta\empty}{\empty Kaszuba\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Maciej Luty} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Danuta\empty}{\empty Katafias\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jakub Zieliński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agnieszka\empty}{\empty Kazun\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Wojciech Domin} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Maksymilian Kowalski, \\Michał Plata} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Kacper\empty}{\empty Kęska\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Maciej Krzosek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Marta\empty}{\empty Kobierska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Michał Zimniewicz} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Tomasz\empty}{\empty Kobos\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Szymon Dziewoński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jerzy\empty}{\empty Konarski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Jeremi Hyska, \\Jan Kwieciński, \\Stanisław Lada, \\Robert Soboński} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Mateusz Burza, \\Krzysztof Grabowski, \\Mikołaj Michalik, \\Aleksander Misterski, \\Alicja Przybylik, \\Michał Rak, \\Aleksandra Różalska, \\Tomasz Szewczyk} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Paweł\empty}{\empty Konopelski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Adam Lubiński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Anna\empty}{\empty Koszycka\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Filip Banek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Tomasz\empty}{\empty Kozicki\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Mikhail Zubkov} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Roman\empty}{\empty Kozłowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Stanisław Szczepkowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Teresa\empty}{\empty Kożuchowska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Maciej Wrona} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Bogusław\empty}{\empty Kraszewski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Ksawery Bartman, \\Robert Kluszczyński, \\Kamil Szmurło} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Szymon Dziewoński, \\Jarosław Makucha} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mariusz\empty}{\empty Kraus\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Krzysztof Lalicki} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Wiktoria Bolka, \\Dawid Litwiniec, \\Filip Manijak} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agnieszka\empty}{\empty Krause\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jakub Zieliński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Krzysztof\empty}{\empty Krawet\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Paweł Kosek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Iwona\empty}{\empty Kusz\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczennica \uczniowie{Anna Bryłowska} uzyskała tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Łukasz Próchniak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Iwona\empty}{\empty Kutt\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Karol Szczygieł} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mateusz\empty}{\empty Kwaśnicki\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Mateusz Wawrzyniak} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Paweł\empty}{\empty Kwiatkowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Szymon Tobiasz} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Tomasz Banaszczyk, \\Kazimierz Chomicz, \\Krystian Szelest, \\Jan Ulbrych} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Zbigniew\empty}{\empty Luchciński\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Stanisław Owsiak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Adam\empty}{\empty Makowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Tymoteusz Stępkowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Rafał\empty}{\empty Mańczyk\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Adam Gąsienica-Samek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Michał\empty}{\empty Marcinkowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Wojciech Domin} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Maksymilian Kowalski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Wojciech\empty}{\empty Martys\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Michał Kaźmierczak} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Wojciech Firczuk, \\Milena Jaroszewicz, \\Mateusz Wesołowski} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Kacper\empty}{\empty Mazur\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Rafał Żebruń} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Barbara\empty}{\empty Mierzwińska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Maksymilian Kuriata} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Maciej\empty}{\empty Mikulski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Aleksander Romasz} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Włodzimierz\empty}{\empty Mizia\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Łukasz Ganczarek, \\Karol Matyka} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Ewa\empty}{\empty Mularz-Kidała\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Karol Izdebski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Michał\empty}{\empty Myziak\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Wojciech Grzela, \\Jakub Hawryluk, \\Stanisław Zieliński} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Marek\empty}{\empty Nagański\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Robert Rośczak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Adam\empty}{\empty Neugebauer\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Ignacy Kus} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Michał\empty}{\empty Niedźwiedź\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczennica \uczniowie{Wiktoria Klejdysz} uzyskała tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Ewa\empty}{\empty Nizińska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Krzysztof Jaros} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Korneliusz\empty}{\empty Obarski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Konstanty Smolira} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Łukasz Próchniak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Aleksandra\empty}{\empty Olczyk\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Nikodem Przyłucki} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mariusz\empty}{\empty Olszewski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Błażej Chamuczyński, \\Jakub Gaj} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Krzysztof\empty}{\empty Ostrowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Tomasz Ostrowski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jakub\empty}{\empty Pawlikowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Stanisław Lada} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Mikołaj Michalik, \\Aleksander Misterski, \\Aleksandra Różalska} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agnieszka\empty}{\empty Pawluczuk\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jan Błażuk} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Michał Burzyński, \\Kamil Januszkiewicz, \\Sylwia Sapkowska, \\Maciej Sirocki} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Marek\empty}{\empty Pawłowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Jakub Biekionis, \\Dagna Czubla, \\Jan Skiba} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Karol\empty}{\empty Pokorski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Rafał Mańczyk} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczeń \uczniowie{Adam Gąsienica-Samek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Waldemar\empty}{\empty Pompe\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{ uczniowie \uczniowie{Jeremi Hyska, \\Jan Kwieciński, \\Robert Soboński} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Mateusz Burza, \\Maksymilian Czyżewski, \\Krzysztof Grabowski, \\Jarosław Makucha, \\Tomasz Ostrowski, \\Alicja Przybylik, \\Michał Rak} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mirosław\empty}{\empty Pryszczepko\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Jan Błażuk} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Stanisław Kozłowski, \\Sylwia Sapkowska, \\Adam Sienkiewicz, \\Maciej Sirocki} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Barbara\empty}{\empty Przebieracz\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Martyna Kupidłowska, \\Kajetan Skitał} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Joanna\empty}{\empty Pucułek\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Daniel Krzak} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Marcin\empty}{\empty Radwański\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Patryk Rosół} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Dominik Kaim, \\Filip Maziarka} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Michał\empty}{\empty Rał\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Jan Micyk} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Kamil Adamczyk, \\Marek Brzyski, \\Szymon Chwila, \\Tomasz Górny, \\Rafał Kubień, \\Igor Malinowski, \\Bartłomiej Tomaś, \\Jakub Wasilewski} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Małgorzata\empty}{\empty Rama\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Bartłomiej Sandecki, \\Jacek Szymeczko} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Dominika\empty}{\empty Regiec\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Tadeusz Rylski, \\Jakub Świcarz} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Krzysztof Jaros, \\Stanisław Kowalczyk} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Dominika\empty}{\empty Regiec-Cieszyńska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Jan Drabikowski, \\Łucja Łyziak} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Krzysztof\empty}{\empty Rosołek\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Paweł Jacewicz} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Mikołaj\empty}{\empty Rotkiewicz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Michał Kaźmierczak} uzyskał tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Wojciech Firczuk, \\Milena Jaroszewicz, \\Maria Kaszewska, \\Tomasz Pływacz, \\Mateusz Wesołowski} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Andrzej\empty}{\empty Rychlewicz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Dominik Młynarczyk} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Anna\empty}{\empty Sadłowska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Piotr Pawlaczyk} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Leszek\empty}{\empty Sidz\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Tadeusz Rylski, \\Jakub Świcarz} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Jan Drabikowski, \\Stanisław Kowalczyk} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agnieszka\empty}{\empty Skalska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Jeremi Baszun} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Filip\empty}{\empty Smentek\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Norbert Dąbrowski} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Krzysztof\empty}{\empty Sobków\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Dawid Szkudlarski} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Daniel\empty}{\empty Strzelecki\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Jakub Zieliński} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Anna\empty}{\empty Sutkowska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Krzysztof Jaros, \\Iga Świętorecka} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agata\empty}{\empty Szafran\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Rupert Rybka} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Tomasz\empty}{\empty Szarek\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Krzysztof Karwik} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Przemysław\empty}{\empty Szczepaniak\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Karol Matyka} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Michał\empty}{\empty Śliwiński\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Łukasz Ganczarek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Witold\empty}{\empty Świątkowski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Karol Matyka} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Joanna\empty}{\empty Tkaczyk\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczennica \uczniowie{Wiktoria Gąsior} uzyskała tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Łukasz\empty}{\empty Toma\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Kazimierz Chomicz} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Wojciech\empty}{\empty Tomalczyk\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Antoni Nowosielski, \\Jakub Pieczonka} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Jeremi Baszun, \\Mateusz Byzdra, \\Igor Grono, \\Waldemar Lamandini, \\Olaf Targowski, \\Jan Ząbkiewicz} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Cezary\empty}{\empty Urban\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Oskar Kalinowski, \\Michał Węgrzyn, \\Aliaksandr Zushchyk} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Marta\empty}{\empty Walczyńska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Rafał Kubień, \\Igor Malinowski, \\Bartłomiej Tomaś} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Grzegorz\empty}{\empty Walotek\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Borys Wawrzynów} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Agnieszka\empty}{\empty Wanot\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Szymon Plura} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Anna\empty}{\empty Wieczorek\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Maciej Krzosek} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Ewa\empty}{\empty Wierdak-Dymel\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Adam Jankowski} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Zofia\empty}{\empty Wiśniewska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Marcin Matyka} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Bożena\empty}{\empty Witecka\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Oleksii Iermolenko} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Dorota\empty}{\empty Wnęk\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczennica \uczniowie{Wiktoria Marć} uzyskała tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Sławomir\empty}{\empty Wójcik\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczniowie \uczniowie{Mateusz Wawrzyniak, \\Rafał Żebruń} uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Błażej Chamuczyński, \\Jakub Gaj, \\Oskar Kalinowski, \\Michał Węgrzyn} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Jolanta\empty}{\empty Wronka\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{FIlip Latawiec} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Jarosław\empty}{\empty Wróblewski\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Wojciech Domin} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Sylwia\empty}{\empty Wysocka\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Aleksander Mielnikau} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Jolanta\empty}{\empty Wysowska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Karol Krasoń} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pan\empty}{\empty Michał\empty}{\empty Zbierański\empty}{\empty Panu\empty}{\empty Pana\empty}{\empty Panem\empty}{\empty uczeń \uczniowie{Wiktor Bucki} uzyskał tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Olga\empty}{\empty Ziemiańska\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczniowie \uczniowie{Jan Gwiazda, \\Grzegorz Kaczmarek, \\Krzysztof Pietrusiak, \\Kajetan Ramsza, \\Gustaw Wenzel}   uzyskali tytuł laureata LXXV Olimpiady Matematycznej, a uczniowie \uczniowie{Wiktoria Bazan, Jan Dorosiński, Dominik Figurski, Tymon Kłoda, Anna Koziara, Antoni Łuczak, Jerzy Olkowski, Szymon Pancewicz, Dominika Piętka, Paweł Ramut, Mateusz Sawicki, Michał Szeliga, Jan Święszkowski, Piotr Wielgolewski} uzyskali tytuł finalisty LXXV Olimpiady Matematycznej.\empty}
+
+\podziekowanie{\empty Pani\empty}{\empty Aleksandra\empty}{\empty Żarska-Szulc\empty}{\empty Pani\empty}{\empty Pani\empty}{\empty Panią\empty}{\empty uczeń \uczniowie{Szymon Urban} uzyskał tytuł laureata LXXV Olimpiady Matematycznej.\empty}
+
+
+\end{document}
