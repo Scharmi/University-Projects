@@ -24,6 +24,6 @@ def pad(msg):
 
 def unpad(msg):
     if not msg:
-        print("Coś jest kurwa nie tak")
+        print("Coś jest nie tak")
         return b''
     return msg[:-msg[-1]]
