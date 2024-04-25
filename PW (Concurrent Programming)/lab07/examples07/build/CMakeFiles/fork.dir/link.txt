@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wall -Wextra -Wno-sign-compare -rdynamic CMakeFiles/fork.dir/fork.c.o -o fork  liberr.a 

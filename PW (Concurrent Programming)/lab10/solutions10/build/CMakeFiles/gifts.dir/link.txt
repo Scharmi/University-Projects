@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -rdynamic CMakeFiles/gifts.dir/gifts.c.o -o gifts  liberr.a -lpthread -lrt 

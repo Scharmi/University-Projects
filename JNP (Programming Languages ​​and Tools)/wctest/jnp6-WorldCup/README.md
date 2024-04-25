@@ -1,1 +1,0 @@
-# jnp6-WorldCup

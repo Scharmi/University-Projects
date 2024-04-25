@@ -1,8 +1,0 @@
-/home/scharmi/PW/lab13/build/CMakeFiles/mutex.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/lock.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/condition.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/thread-local.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/thread-local-static.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/barrier.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/edit_cache.dir
-/home/scharmi/PW/lab13/build/CMakeFiles/rebuild_cache.dir

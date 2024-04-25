@@ -1,1 +1,0 @@
-./sikradio-receiver -a 239.10.11.12 | play -t raw -c 2 -r 44100 -b 16 -e signed-integer --buffer 32768 -

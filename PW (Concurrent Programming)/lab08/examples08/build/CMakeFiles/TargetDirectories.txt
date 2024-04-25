@@ -1,8 +1,0 @@
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/err.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/child-pipe.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/parent-pipe.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/parent-dup.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/child-fifo.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/parent-fifo.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/edit_cache.dir
-/home/scharmi/PW/lab08/examples08/build/CMakeFiles/rebuild_cache.dir

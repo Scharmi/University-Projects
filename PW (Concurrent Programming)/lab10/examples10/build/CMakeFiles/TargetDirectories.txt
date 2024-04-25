@@ -1,9 +1,0 @@
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/err.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/get_memory.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/send_message.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/send_message_no_inheritance.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/unnamed_memory.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/send_message_protected.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/unnamed_memory_protected.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/edit_cache.dir
-/home/scharmi/PW/lab10/examples10/build/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,0 @@
-/home/scharmi/PW/lab11/build/CMakeFiles/err.dir
-/home/scharmi/PW/lab11/build/CMakeFiles/simple_handler.dir
-/home/scharmi/PW/lab11/build/CMakeFiles/signal_mask.dir
-/home/scharmi/PW/lab11/build/CMakeFiles/more_info.dir
-/home/scharmi/PW/lab11/build/CMakeFiles/terminator.dir
-/home/scharmi/PW/lab11/build/CMakeFiles/edit_cache.dir
-/home/scharmi/PW/lab11/build/CMakeFiles/rebuild_cache.dir

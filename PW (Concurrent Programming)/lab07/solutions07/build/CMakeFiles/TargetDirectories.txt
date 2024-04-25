@@ -1,5 +1,0 @@
-/home/scharmi/PW/lab07/solutions07/build/CMakeFiles/err.dir
-/home/scharmi/PW/lab07/solutions07/build/CMakeFiles/line.dir
-/home/scharmi/PW/lab07/solutions07/build/CMakeFiles/line_exec.dir
-/home/scharmi/PW/lab07/solutions07/build/CMakeFiles/edit_cache.dir
-/home/scharmi/PW/lab07/solutions07/build/CMakeFiles/rebuild_cache.dir

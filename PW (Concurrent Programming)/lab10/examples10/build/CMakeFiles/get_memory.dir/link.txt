@@ -1,1 +1,0 @@
-/usr/bin/cc -g -Wall -Wextra -Wno-sign-compare -Wno-unused-parameter -rdynamic CMakeFiles/get_memory.dir/get_memory.c.o -o get_memory  liberr.a -lpthread -lrt 

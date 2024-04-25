@@ -1,8 +1,0 @@
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/err.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/hello-world.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/fork.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/wait.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/exec.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/tree.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/edit_cache.dir
-/home/scharmi/PW/lab07/examples07/build/CMakeFiles/rebuild_cache.dir
