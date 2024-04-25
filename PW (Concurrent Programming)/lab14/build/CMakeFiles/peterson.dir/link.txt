@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -Wall -rdynamic CMakeFiles/peterson.dir/peterson.cpp.o -o peterson 

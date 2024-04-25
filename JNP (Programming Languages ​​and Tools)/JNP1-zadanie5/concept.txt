@@ -1,0 +1,21 @@
+1. lista która jest kolejką (składa się z par (K,V))
+2. mapa po kluczach do list iteratorów wskazujących na elementy o tym kluczu (iteratory muszą być rosnąco)
+
+
+OSOBA 1.
+kopiowanie, konstruktory, fronty i backi
+
+
+OSOBA 2.
+iteratory, push, pop, move to back, count, clear
+
+
+paczki:
+-- iteratory, begin i end
+-- push, pop
+-- move to back //ez
+-- count //ez
+-- clear //ez
+-- kopiowanie 
+-- konstruktory
+-- fronty backi

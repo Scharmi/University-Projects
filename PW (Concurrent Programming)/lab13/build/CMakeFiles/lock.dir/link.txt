@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wall -rdynamic CMakeFiles/lock.dir/lock.cpp.o -o lock 

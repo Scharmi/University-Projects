@@ -1,0 +1,19 @@
+{
+    "[asm-collection]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false,
+        "editor.rulers": [
+            8,16,48
+        ]
+    },
+    "files.associations": {
+        "limits.h": "c",
+        "string.h": "c",
+        "math.h": "c",
+        "ctype.h": "c",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "stdint.h": "c",
+        "stdbool.h": "c"
+    },
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -Wall -rdynamic CMakeFiles/lockfree-stack.dir/lockfree-stack.cpp.o -o lockfree-stack 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wall -rdynamic CMakeFiles/thread-local-static.dir/thread-local-static.cpp.o -o thread-local-static 
